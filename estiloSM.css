@@ -1,0 +1,27 @@
+/*	AUTOR: S T E V E N   A N D R A D E */
+
+@import url('https://fonts.googleapis.com/css?family=Baloo');
+
+
+/*Creando las cajas para cada letra*/
+div[class^="contenedor"]{
+	
+	width: 120px;
+	height: 144px;
+	border: 2px solid #606060;
+	text-align: left;
+	align-items: left;
+	justify-content: left;
+	float: left;
+	margin: 17px;
+	border-radius: 10px;
+	font-family: 'Baloo', cursive;
+	font-size: 36px;
+	background-color: #f7fade;
+	padding-left: 17px;
+}
+
+div[class^="contenedor"]:nth-child(2n+1){
+	background-color: #dfedd6;
+
+}
